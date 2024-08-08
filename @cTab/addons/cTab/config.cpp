@@ -27,7 +27,7 @@ class CfgPatches
 			requiredVersion = REQUIRED_VERSION;
 			requiredAddons[] = {"CBA_MAIN"};
 			versionDesc = "cTab";
-			VERSION_CONFIG;
+			version = VERSION;
 			author[] = {"Gundy","Riouken","Raspu"};
 			authorUrl = "https://github.com/Riouken/cTab";
 		};
@@ -67,7 +67,7 @@ class CfgMods {
 };
 
 #include "\cTab\CfgFunctions.h"
-#include "\userconfig\ctab\ctab_settings.hpp"
+#include "\cTab\settings.hpp"
 
 class Extended_PostInit_EventHandlers
 {
