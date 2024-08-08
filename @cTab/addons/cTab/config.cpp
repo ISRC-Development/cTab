@@ -13,7 +13,8 @@
 #define VERSION MAJOR.MINOR.PATCHLVL.BUILD
 #define VERSION_AR MAJOR,MINOR,PATCHLVL,BUILD
 #define REQUIRED_VERSION 1.32
-#include "\x\cba\addons\main\script_macros_common.hpp"
+// Legacy CBA
+// #include "\x\cba\addons\main\script_macros_common.hpp"
 #define AUTHOR "Gundy, Riouken, Raspu"
 
 
